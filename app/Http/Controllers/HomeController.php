@@ -13,6 +13,6 @@ class HomeController extends Controller
 
     public function show()
     {
-        return "show";
+        return view('show');
     }
 }
